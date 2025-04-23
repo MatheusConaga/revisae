@@ -3,11 +3,11 @@ import { Colors } from "../../../constants/Colors";
 
 export const styles = StyleSheet.create({
 
-    appBar: {
+    bottomBar: {
         backgroundColor: Colors.appBar,
         height: 70,
         width: "100%",
-        justifyContent: "space-between",
+        justifyContent: "center",
         flexDirection: "row",
         alignItems: "center",
         paddingHorizontal: 15,
@@ -16,10 +16,20 @@ export const styles = StyleSheet.create({
         width: 60,
         height: 60,
     },
-    appBarIcons:{
+    textButton: {
+        paddingLeft: 10,
+        color: "white",
+        fontSize: 20,
+        fontWeight: "bold",
+    },
+    button: {
         flexDirection: "row",
-        justifyContent: "space-between",
-        width: "25%",
+        alignItems: "center",
+        backgroundColor: Colors.button,
+        borderRadius: 10,
+        paddingVertical: 10,
+        paddingHorizontal: 15,
+
     }
 
 });
